@@ -1,0 +1,65 @@
+
+#navBar{
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+
+#homecontainer{
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.welcomelogo{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 24em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
+
+/* nav */
+
+#awesomeLogo{
+
+    background-color: bisque;
+}
+
+#divnav{
+    display: flex;
+    align-items: space-between;
+  
+}
+
+#divnav li{
+   
+    margin-left: 20px;
+  
+}
+
+#divnav li:hover{
+   
+    border-bottom: solid 1px gray;
+  
+}
+
+#divnav .navbar-brand:hover{
+   
+    border-bottom: solid 1px gray;
+  
+}
+
